@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: #d2d6d9;
+}
+
+#logo{
+    width: 400px;
+    margin-top: -60px;
+}
+
+#conteudoHeader{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+#conteudoHeader h2{
+  font-size: 110px;
+  text-align: left;
+  margin-right: 120px ;
+  color: #575859;
+  white-space: nowrap;
+}
+
+figure{
+    width: 750px;
+    margin-top: -140px;
+    transform: translateY(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+main{
+    background-color: #648c66;
+}
+
+section{
+    font-size: 25px;
+    text-align: center;
+}
+
+.regras{
+    border-radius: 20px;
+    width: 50%;
+    background-color:#d2d6d9;
+    margin: auto;
+}
+
+.regras h1{
+    font-size: 50px;
+}
+
+.regras p{
+    color: #575859;
+    /* color:rgb(111, 200, 22); */
+    margin-top: 20px;
+}
+
+.regras h2{
+    margin-top: 20px;
+}
+
+#saldo, #saldo2, #saldo3{
+    margin-top: 30px;
+    font-size: 20px;
+    height: 40px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#calcular{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #648c66;
+    color:#d2d6d9;
+    border: none;
+    cursor: pointer;
+}
+
+#resultado{
+    text-align: start;
+    margin-left: 15px; 
+    margin: 15px;
+}
+
+#res1 b, #res2 b, #res3 b, #res4 b, #res5 b, #res6 b, #res7 b, #res8 b{
+    color:rgb(48, 186, 48);
+}
+
+footer{
+    background-color: #496c4a;
+    color:#d2d6d9;
+    text-align: center;
+}
+
+@media(max-width: 1690px){
+
+    header{
+        margin-bottom: 100px;
+    }
+   
+
+    #conteudoHeader h2{
+        font-size: 95px;
+    }
+
+    figure{
+        width: 600px;
+    }
+}
+
+@media(max-width: 1400px){
+    
+
+    #conteudoHeader h2{
+        font-size: 85px;
+    }
+
+    figure{
+        width: 550px;
+    }
+}
+
+@media(max-width: 1300px){
+    
+
+    #conteudoHeader h2{
+        font-size: 450%;
+    }
+}
+
+@media(max-width: 1200px){
+   
+
+    .regras{
+        width: 60%;
+    }
+  
+
+    #conteudoHeader h2{
+        font-size: 350%;
+    }
+
+    figure{
+        width: 500px;
+    }
+}
+
+@media(max-width: 950px){
+
+    footer{
+        font-size: 12px;
+    }
+
+    .regras{
+        width: 75%;
+    }
+
+    .regras h1{
+        font-size: 40px;
+    }
+    .regras h2{
+        font-size: 25px;
+    }
+
+    .regras p{
+        font-size: 17px;
+    }
+
+   header{
+    display: inline-block;
+    text-align: center;
+    display: block;
+   }
+
+   figure{
+    position: absolute;
+    width: 350px;
+    display: block;
+   }
+
+   #conteudoHeader h2{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    /* margin: auto; */
+    margin-right: 0;
+   }
+}
+
+@media(max-width:500px){
+
+    .regras p{
+        font-size: 13px;
+    }
+
+    .regras h1{
+        font-size: 25px;
+    }
+
+    .regras h2{
+        font-size: 20px;
+    }
+
+    #logo{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    #conteudoHeader h2{
+        font-size: 38px;
+    }
+
+    #saldo, #saldo2, #saldo3{
+        height: 35px;
+        font-size: 15px;
+    }
+
+    #calcular{
+        font-size: 17px;
+    }
+
+    footer{
+        font-size: 9px;
+    }
+}
+

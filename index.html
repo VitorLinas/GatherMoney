@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imgs/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Gather Money</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="imgs/logo.png" alt="logo">
+        
+
+        <div id="conteudoHeader">
+            <h2>Regras simples<br>para te ajudar<br>a juntar dinheiro!</h2>
+        <figure>
+            <img src="imgs/ilustracao.svg" alt="ilustração">
+        </figure>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <br><br><br>
+            <div class="regras">
+                <br>
+                <h1>50-30-20</h1>
+                <p>50% necessidades/ 30% Lazer/ 20% Guardar</p>
+                <h2>Ideal para quem deseja juntar um mínimo valor mensal.</h2>
+            <input type="number" id="saldo" placeholder="  Seu saldo mensal R$">
+            <br>
+            <button id="calcular" onclick="calcular1()">Calcular</button>
+            
+            
+
+            <div id="resultado">
+                <div id="res1"></div>
+                <div id="res2"></div>
+                <div id="res3"></div>
+            </div>
+        </div>
+
+        <br><br><br>
+        <div class="regras">
+            <br>
+            <h1>50-15-35</h1>
+            <p>50% necessidades/ 15% Lazer/ 35% Guardar</p>
+            <h2>Pouco destinado a lazer e maior parte para guardar.</h2>
+        <input type="number" id="saldo2" placeholder="  Seu saldo mensal R$">
+        <br>
+        <button id="calcular" onclick="calcular2()">Calcular</button>
+        
+       
+
+        <div id="resultado">
+            <div id="res4"></div>
+            <div id="res5"></div>
+            <div id="res6"></div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class="regras">
+        <br>
+        <h1>70-30</h1>
+        <p>70% necessidades/ 30% Guardar<p>
+        <h2>Maior gasto com coisas essenciais, e sem lazer, ideal para objetivos a curto prazo.</h2>
+    <input type="number" id="saldo3" placeholder="  Seu saldo mensal R$">
+    <br>
+    <button id="calcular" onclick="calcular3()">Calcular</button>
+    
+
+
+    <div id="resultado">
+        <div id="res7"></div>
+        <div id="res8"></div>
+    </div> 
+</div>
+        <br>
+    </main>
+
+    <footer>
+        <br><h3><u>NECESSIDADES:</u> Coisas essenciais, contas, alimentação...</h3><br>
+        <h3><u>LAZER:</u> Passeios, viagens, produtos não essenciais...</h3><br>
+        <h3><u>GUARDAR:</u> Dinheiro que ficara guardado para realização de um objetivo!</h3><br>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- 50-30-20
+menor valor para juntar
+
+50-15-35
+menor valor para lazer
+
+70-30
+Para objetivos a curto prazo -->
