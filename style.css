@@ -245,3 +245,16 @@ footer{
     }
 }
 
+@media(max-height: 700px) and (min-width:950px){
+  
+
+    #conteudoHeader h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    figure{
+        width: 400px;
+    }
+}
+
